@@ -2,7 +2,6 @@
 .button{
   position: relative;
 	display:block;
-	background: transparent;
 	width:200px;
 	height:60px;
 	line-height:60px;
@@ -11,6 +10,7 @@
 	text-decoration:none;
 	text-transform:uppercase;
 	margin:40px auto;
+
 }
 .button:before, .button:after {
 	width:200px;
@@ -64,6 +64,8 @@
   -webkit-transform: perspective(15px) rotateX(-5deg);
   -moz-transform: perspective(15px) rotateX(-5deg);
   transform: perspective(15px) rotateX(-5deg);
+  box-shadow: 5px 5px #000;
+  background-color: #f8f8f8;
 }
 
 /* Button Hover Style */
